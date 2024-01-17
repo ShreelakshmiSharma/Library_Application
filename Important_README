@@ -1,0 +1,1 @@
+The two html files run as templates therefore they need to be saved in a file named 'templates' in the same location that the main .py file is stored in. This is important as without the templates file, a 'TemplateNotFound' error may occur.
