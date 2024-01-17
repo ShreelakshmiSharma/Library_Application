@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+</head>
+<center>
+<body style="background-color: bisque;">
+    <h1>Library</h1>
+    {% if added_book %}
+<p>Added Book: {{ added_book }}</p>
+    {% endif %}
+    {% if deleted_book %}
+        <p>Deleted Book: {{ deleted_book }}</p>
+    {% endif %}
+    {% for book in books %}
+        {{ book }}
+    {% endfor %}
+</body>
+</center>
+</html>
